@@ -42,15 +42,14 @@
                 <h1 class="logo__text">Spectre</h1>
             </div>
             <div class="thumbnail__content text-center">
-                <h1 class="heading--primary">Welcome to MI6.</h1>
-                <h2 class="heading--secondary">Are you ready to join the elite?</h2>
+                <h1 class="heading--primary">Bienvenue chez Linkcal.</h1>
+                <h2 class="heading--secondary">Est-tu pret a devenir livreur?</h2>
             </div>
             <div class="thumbnail__links">
                 <ul class="list-inline m-b-0 text-center">
-                    <li><a href="http://alexdevero.com/" target="_blank"><i class="fa fa-globe"></i></a></li>
-                    <li><a href="https://www.behance.net/alexdevero" target="_blank"><fa class="fa fa-behance"></fa></a></li>
                     <li><a href="https://github.com/alexdevero" target="_blank"><i class="fa fa-github"></i></a></li>
                     <li><a href="https://twitter.com/alexdevero" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <i class="far fa-money-bill-alt"></i>
                 </ul>
             </div>
             <div class="signup__overlay"></div>
@@ -59,28 +58,26 @@
             <form action="#">
                 <div class="form-group">
                     <label for="username">Username</label>
-                    <input class="form-control" type="text" name="username" id="username" placeholder="james.bond" required />
+                    <input class="form-control" type="text" name="username" id="username" placeholder="livreur responsable" required />
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input class="form-control" type="text" name="email" id="email" placeholder="james.bond@spectre.com" required />
+                    <input class="form-control" type="text" name="email" id="email" placeholder="livreur.responsable@planete.com" required />
                 </div>
                 <div class="form-group">
-                    <label for="password">Password</label>
+                    <label for="password">Mot de passe</label>
                     <input class="form-control" type="password" name="password" id="password" placeholder="********" required />
                 </div>
                 <div class="form-group">
-                    <label for="passwordRepeat">Repeat Password</label>
+                    <label for="passwordRepeat">Repeter Mot de passe</label>
                     <input class="form-control" type="password" name="passwordRepeat" id="passwordRepeat" placeholder="********" required />
                 </div>
                 <div class="m-t-lg">
                     <ul class="list-inline">
                         <li>
-                            <input class="btn btn--form" type="submit" value="Register" />
+                            <input class="btn btn--form" type="submit" value="Inscription" />
                         </li>
-                        <li>
-                            <a class="signup__link" href="#">I am already a member</a>
-                        </li>
+
                     </ul>
                 </div>
             </form>

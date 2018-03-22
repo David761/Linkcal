@@ -7,11 +7,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <script src="js/fontawesome-all.js"></script>
 </head>
 <body>
@@ -31,46 +32,24 @@
     <!-- END OF HEADER -->
 
 
-
-    <div class="col-xs-12 login">
-        <form name="login" action="login.php" method="POST">
-            <fieldset>
-                <legend>SE CONNECTER</legend>
-                <input type="email" name="email" placeholder="Email" required="">
-                <input type="text" name="mot de passe" placeholder="mot de passe" required="">
-                <input type="submit" value="Me connecter !">
-            </fieldset>
-
-        </form>
-    </div>
-
-    <div class="col-xs-12 inscription"><a href= 'http://www.google.com'>
-        mot de passe oublié ?</a></div>
-    </div>
-
-
-    <div class="col-xs-12 inscription">
-        <h1>S'inscrire</h1>
-        <ul>
-            <li><a href="inscriptionLivreur.php">S'inscrire en tant que livreur</a></li>
-            <li><a href="inscriptionClient.php">S'inscrire en tant que client</a></li>
-            <li><a href="inscriptionProducteur.php">S'inscrire en tant que producteur</a></li>
-        </ul>
-    </div>
+<p>CCCC</p>
 
 
 
 
 
-    <!-- FOOTER START -->
-    <?php
 
-    include_once("footer.php")
 
-    ?>
 
-    <!-- END OF FOOTER -->
 
+        <!-- FOOTER START -->
+        <?php
+
+        include_once("footer.php")
+
+        ?>
+
+        <!-- END OF FOOTER -->
 
 </main>
 <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -84,3 +63,4 @@
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 </html>
+
